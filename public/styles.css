@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+
+}
+
+.container{
+    margin: 40px auto;
+    width: 600px;
+    height: 400px;
+    background-color: #eee;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.date{
+    margin: 0 auto;
+    background-color: #ce1212;
+    text-align: center;
+    outline: 1px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    color: #eee;
+}
+.searchBar{
+    margin : 0 auto;
+    padding: 20px;
+}
+.search{
+    width: 400px;
+    height: 30px;
+    background-color:  #eee;
+    border: 0;
+    outline: 2px solid  #ce1212;
+    border-radius: 5px;
+    color: #ce1212;
+    font-size: 20px;
+    align-items: center;
+
+
+}
+.button{
+    background-color:  #ce1212;
+    width: 100px;
+    margin-left: 30px;
+    padding: 10px;
+    border:0;
+    color: #eee;
+    border-radius: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    box-shadow: 0 8px 28px rgb(206 18 18 / 30%);
+     
+
+}
+.enteredItems{
+    margin: 0 auto;
+    outline: 3px  #ce1212;
+    height: 230px;
+    width: 75%;
+    margin-top: 10px ;
+    overflow-y: scroll ;
+
+
+}
+.enteredItems .item{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.enteredItems .item {
+    
+    font-size: 25px;
+    font-family: cursive;
+    /* list-style: none; */
+    
+}
+.item {
+    border: #0000;
+    box-shadow: inset -1px 16px 20px 20px rgb(242 199 199 / 30%);
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 7px;
+    padding: 3px;
+}
